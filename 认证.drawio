@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2022-07-11T08:57:40.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="n9-ca8o-qBI4rcnd726i" version="20.0.4" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1426" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="yNPxZpSD1YruV2so6bn6-4" value="认证" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="350" width="450" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="yNPxZpSD1YruV2so6bn6-0" value="用户名密码认证" style="html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="200" y="420" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yNPxZpSD1YruV2so6bn6-1" value="手机号认证" style="html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="380" y="420" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yNPxZpSD1YruV2so6bn6-2" value="Google OTP" style="html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="200" y="510" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yNPxZpSD1YruV2so6bn6-3" value="邮箱认证" style="html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="380" y="510" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yNPxZpSD1YruV2so6bn6-5" value="云盾认证" style="html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="200" y="600" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yNPxZpSD1YruV2so6bn6-6" value="idp回调认证" style="html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="380" y="600" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yNPxZpSD1YruV2so6bn6-7" value="WindowsAD认证" style="html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="200" y="680" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yNPxZpSD1YruV2so6bn6-8" value="Inline-Hook认证" style="html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="380" y="680" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
