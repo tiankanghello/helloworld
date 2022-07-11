@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T09:13:06.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Ti3dw9nCdcedIAtIRL_0" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-11T09:39:23.734Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="oJc0jLZuGLx-dSijGUBu" version="20.0.4" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1426" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FtckGkZc_CiGDwU_A9KK-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="150" width="20" height="630" as="geometry" />
+          <mxGeometry x="50" y="150" width="20" height="1050" as="geometry" />
         </mxCell>
         <mxCell id="FtckGkZc_CiGDwU_A9KK-4" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="150" width="20" height="630" as="geometry" />
+          <mxGeometry x="299" y="150" width="20.5" height="1110" as="geometry" />
         </mxCell>
         <mxCell id="FtckGkZc_CiGDwU_A9KK-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FtckGkZc_CiGDwU_A9KK-4">
           <mxGeometry x="10" y="100" width="10" height="40" as="geometry" />
@@ -35,7 +35,7 @@
         <mxCell id="FtckGkZc_CiGDwU_A9KK-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FtckGkZc_CiGDwU_A9KK-4">
           <mxGeometry x="10" y="320" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FtckGkZc_CiGDwU_A9KK-29" value="6.获取认证实例" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="FtckGkZc_CiGDwU_A9KK-4" target="FtckGkZc_CiGDwU_A9KK-28">
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-29" value="本地认证" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="FtckGkZc_CiGDwU_A9KK-4" target="FtckGkZc_CiGDwU_A9KK-28">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="15" y="300" as="sourcePoint" />
             <Array as="points">
@@ -43,20 +43,125 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FtckGkZc_CiGDwU_A9KK-4">
+          <mxGeometry x="10" y="390" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-33" value="检查用户状态" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="FtckGkZc_CiGDwU_A9KK-4" target="FtckGkZc_CiGDwU_A9KK-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="45" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FtckGkZc_CiGDwU_A9KK-4">
+          <mxGeometry x="10" y="460" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-36" value="进行认证" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="FtckGkZc_CiGDwU_A9KK-4" target="FtckGkZc_CiGDwU_A9KK-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="45" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FtckGkZc_CiGDwU_A9KK-4">
+          <mxGeometry x="10" y="540" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-38" value="检查用户是否存在" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="FtckGkZc_CiGDwU_A9KK-4" target="FtckGkZc_CiGDwU_A9KK-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="45" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-51" value="" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="FtckGkZc_CiGDwU_A9KK-4">
+          <mxGeometry x="-0.2844" y="-280" relative="1" as="geometry">
+            <mxPoint x="10.5" y="710" as="sourcePoint" />
+            <mxPoint x="10" y="710" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FtckGkZc_CiGDwU_A9KK-4">
+          <mxGeometry x="10.5" y="730" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-53" value="检查是否允许登录" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="FtckGkZc_CiGDwU_A9KK-4" target="FtckGkZc_CiGDwU_A9KK-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15.5" y="710" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="45.5" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-56" value="" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="FtckGkZc_CiGDwU_A9KK-4">
+          <mxGeometry x="-0.2844" y="-280" relative="1" as="geometry">
+            <mxPoint x="10.5" y="790" as="sourcePoint" />
+            <mxPoint x="10" y="790" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FtckGkZc_CiGDwU_A9KK-4">
+          <mxGeometry x="10.5" y="810" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-58" value="检查是否需要多因素认证" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="FtckGkZc_CiGDwU_A9KK-4" target="FtckGkZc_CiGDwU_A9KK-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15.5" y="790" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="45.5" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-61" value="" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="FtckGkZc_CiGDwU_A9KK-4">
+          <mxGeometry x="-0.2844" y="-280" relative="1" as="geometry">
+            <mxPoint x="10.5" y="880" as="sourcePoint" />
+            <mxPoint x="10" y="880" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FtckGkZc_CiGDwU_A9KK-4">
+          <mxGeometry x="10.5" y="900" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-63" value="检查是否需要多因素登记" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="FtckGkZc_CiGDwU_A9KK-4" target="FtckGkZc_CiGDwU_A9KK-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15.5" y="880" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="45.5" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-67" value="" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="FtckGkZc_CiGDwU_A9KK-4">
+          <mxGeometry x="-0.2844" y="-280" relative="1" as="geometry">
+            <mxPoint x="10.5" y="960" as="sourcePoint" />
+            <mxPoint x="10" y="960" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FtckGkZc_CiGDwU_A9KK-4">
+          <mxGeometry x="10.5" y="980" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-69" value="检查密码是否过期" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="FtckGkZc_CiGDwU_A9KK-4" target="FtckGkZc_CiGDwU_A9KK-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15.5" y="960" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="45.5" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FtckGkZc_CiGDwU_A9KK-5" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="705" y="150" width="20" height="630" as="geometry" />
+          <mxGeometry x="705" y="150" width="20" height="980" as="geometry" />
         </mxCell>
         <mxCell id="FtckGkZc_CiGDwU_A9KK-6" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="150" width="20" height="630" as="geometry" />
+          <mxGeometry x="550" y="150" width="20" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="FtckGkZc_CiGDwU_A9KK-7" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="865" y="150" width="20" height="630" as="geometry" />
+          <mxGeometry x="865" y="150" width="20" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="FtckGkZc_CiGDwU_A9KK-8" value="浏览器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FtckGkZc_CiGDwU_A9KK-9" value="authn服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="249" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FtckGkZc_CiGDwU_A9KK-10" value="account服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="90" width="120" height="60" as="geometry" />
@@ -67,21 +172,25 @@
         <mxCell id="FtckGkZc_CiGDwU_A9KK-12" value="safe-actuator服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="815" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FtckGkZc_CiGDwU_A9KK-14" value="1.输入用户名密码" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="FtckGkZc_CiGDwU_A9KK-4" parent="1">
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-14" value="1.输入用户名密码" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="FtckGkZc_CiGDwU_A9KK-4" parent="1" source="FtckGkZc_CiGDwU_A9KK-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="230" as="sourcePoint" />
             <mxPoint x="140" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="230" />
+              <mxPoint x="260" y="230" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FtckGkZc_CiGDwU_A9KK-15" value="" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="285" y="220" as="sourcePoint" />
-            <mxPoint x="284.5" y="220" as="targetPoint" />
+            <mxPoint x="314" y="220" as="sourcePoint" />
+            <mxPoint x="313.5" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FtckGkZc_CiGDwU_A9KK-26" value="4.获得是否在本地认证还是在AD或hook上认证" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="FtckGkZc_CiGDwU_A9KK-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="380" as="sourcePoint" />
+            <mxPoint x="320" y="380" as="sourcePoint" />
             <mxPoint x="479.5" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -91,6 +200,155 @@
             <mxPoint x="569.5" y="390" as="targetPoint" />
             <Array as="points">
               <mxPoint x="530" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FtckGkZc_CiGDwU_A9KK-37" target="FtckGkZc_CiGDwU_A9KK-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="710" />
+              <mxPoint x="70" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-40" value="不存在直接返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FtckGkZc_CiGDwU_A9KK-39">
+          <mxGeometry x="-0.3103" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-41" value="认证失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FtckGkZc_CiGDwU_A9KK-35" target="FtckGkZc_CiGDwU_A9KK-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="630" />
+              <mxPoint x="110" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-42" value="停用和暂停，待激活，锁定用户直接返回" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FtckGkZc_CiGDwU_A9KK-46" target="FtckGkZc_CiGDwU_A9KK-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="798.5" as="sourcePoint" />
+            <mxPoint x="69.5" y="798.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="800" />
+              <mxPoint x="110" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-44" value="" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="FtckGkZc_CiGDwU_A9KK-4">
+          <mxGeometry x="-0.2844" y="-280" relative="1" as="geometry">
+            <mxPoint x="309" y="760" as="sourcePoint" />
+            <mxPoint x="588.5" y="760" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="309" y="780" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-47" value="检查用户状态" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1" target="FtckGkZc_CiGDwU_A9KK-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="314" y="760" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="344" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-50" value="获取认证策略" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="FtckGkZc_CiGDwU_A9KK-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="309" y="840" as="sourcePoint" />
+            <mxPoint x="558" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="379.5" y="840" />
+              <mxPoint x="509.5" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="309" y="900" as="sourcePoint" />
+            <mxPoint x="59.5" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="900" />
+              <mxPoint x="70" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-55" value="禁止登录直接返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FtckGkZc_CiGDwU_A9KK-54">
+          <mxGeometry x="-0.3103" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="309" y="980" as="sourcePoint" />
+            <mxPoint x="59.5" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="980" />
+              <mxPoint x="70" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-60" value="执行多因素认证或登记" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FtckGkZc_CiGDwU_A9KK-59">
+          <mxGeometry x="-0.3103" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="309" y="1070" as="sourcePoint" />
+            <mxPoint x="59.5" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="1070" />
+              <mxPoint x="70" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-66" value="执行多因素登记" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FtckGkZc_CiGDwU_A9KK-65">
+          <mxGeometry x="-0.3103" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="309.5" y="1149.5" as="sourcePoint" />
+            <mxPoint x="60" y="1149.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70.5" y="1149.5" />
+              <mxPoint x="70.5" y="1149.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-71" value="密码过期修改密码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FtckGkZc_CiGDwU_A9KK-70">
+          <mxGeometry x="-0.3103" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-73" value="生成sessionToken" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="309" y="1210" as="sourcePoint" />
+            <mxPoint x="58.25" y="1210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="279.5" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-75" value="获取多因素策略" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="309" y="930" as="sourcePoint" />
+            <mxPoint x="870" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="379.5" y="930" />
+              <mxPoint x="509.5" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtckGkZc_CiGDwU_A9KK-76" value="停用和暂停，待激活，锁定用户直接返回" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FtckGkZc_CiGDwU_A9KK-32" target="FtckGkZc_CiGDwU_A9KK-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="810" as="sourcePoint" />
+            <mxPoint x="69.5" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="560" />
+              <mxPoint x="130" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
